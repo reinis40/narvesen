@@ -12,9 +12,15 @@ while ($done === false)
     if ($input === 'done')
     {
         $done = true;
+        break;
     }
-    $productId = intval($input);
-    $selectedItems[] = $productId;
+    $amount = readline("enter amount ");
+    for ($i = 0; $i < $amount; $i++)
+    {
+        $productId = intval($input);
+        $selectedItems[] = $productId;
+    }
+
 }
 $totalPrice = 0;
 echo "items:\n";
