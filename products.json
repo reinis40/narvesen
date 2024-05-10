@@ -1,0 +1,9 @@
+[
+  {"id": 1, "name": "Chips", "price": 2.99},
+  {"id": 2, "name": "Cookies", "price": 1.99},
+  {"id": 3, "name": "CocaCola", "price": 1.50},
+  {"id": 4, "name": "Sprite", "price": 1.29},
+  {"id": 5, "name": "AppleJuice", "price": 2.00},
+  {"id": 6, "name": "Water", "price": 0.99}
+]
+
